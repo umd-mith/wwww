@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Working with Web Archives Workshop</title>
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+        <section class="title">
+          <div>
+          <h2>Working with Web Archives</h2>
+          <br>
+          <p style="font-size: smaller;">
+            Purdom Lindblad<br>
+            purdom@umd.edu<br>
+            <br>
+            Ed Summers<br>
+            edsu@umd.edu<br>
+            <br>
+            <br>
+            <br>
+            slides: <a href="http://bit.ly/wwww">http://bit.ly/wwww</a>
+          </p>
+          <aside class="notes">
+            <ul>
+              <li>wi-fi ok?</li>
+              <li>Share link to slides</li>
+              <li>Outline of workshop: Our view of this workshop is that it is a conversation--we want you to flag issues, questions, jump in with your experience/advice. We haven’t planned formal breaks, get up as you need to.</li>
+              <li>Goal is to talk about and use Internet Archive, WebRecorder
+                and Hypothesis to get a sense of how they work.</li>
+            </ul>
+          </aside>
+        </section>
+
+				<section>
+          <img width="75%" class="plain" src="images/talk.png">
+          <aside class="notes">
+            Introduce ourselves, and talk briefly about a project we've been
+            involved with or would like to do that involves collecting web
+            pages.
+          </aside>
+        </section>
+
+				<section>
+          <a href="https://www.wired.com/2016/05/okcupid-study-reveals-perils-big-data-science/">
+            <img class="plain" width="75%" src="images/okcupid.png">
+          </a>
+          <aside class="notes">
+            <ul>
+              <li>Q: can someone describe what happened in this article?</li>
+              <li>Q: what could the researchers have done differently?</li>
+              <li>Slippage of when an archive is created and when it is
+                used/accessed (context changes over time) Ed</li>
+              <li>What’s the worst that could happen?</li>
+              <li>Ethics of data sharing, stakes when things become
+                readily/publicly accessible online. PL</li>
+            </ul>
+          </aside>
+        </section>
+
+				<section>
+          <img width="60%" class="plain" src="images/ia.png">
+          <aside class="notes">
+            <ul>
+              <li>Started in 1996 as a site where you can upload content, but
+                they also collect content by crawling the web</li>
+              <li>15 petabytes: mp3 1mb/minute, 2000 yrs, 30,000 yrs</li>
+              <li>Archive-It: over 500 organizations</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section data-background="images/envelope.jpg">
+          How much of the web is in the Internet Archive?<br><br>
+          273,000,000,000 <sup>1</sup> / 1,000,000,000,000 <sup>2</sup> = .273 ???
+          <br>
+          <br>
+          <br>
+          <p style="font-size: 14pt; text-align: left; margin-left: 15%; margin-right: 15%;">
+          1. Alpert, J. and Hajaj, N. (2008). <a href="https://googleblog.blogspot.com/2008/07/we-knew-web-was-big.html">We knew the web was big...  </a> Google.<br>
+          2. Goel, V. (2016). <a href="https://blog.archive.org/2016/10/23/defining-web-pages-web-sites-and-web-captures/">Defining Web pages, Web sites and Web captures</a>. Internet Archive.<br>
+          </p>
+        </section>
+
+        <section>
+          <a href="http://www.blakearchive.org/"><img class="blank" src="images/blake.png"></a>
+          <aside class="notes">
+            <ul>
+              <li>Explain the calendar page.</li>
+              <li>Show navigation between versions</li>
+              <li>Show how the dates change</li>
+              <li>Note the URL syntax.</li>
+          </aside>
+        </section>
+
+        <section>
+          <figure>
+            <img class="plain" alt="NYTimes" src="images/wayback2.png">
+            <figcaption>
+              <a href="https://web.archive.org/web/20160601000000*/https://nytimes.com">Archival coverage</a> of the NYTimes homepage in 2016.
+            </figcaption>
+            <aside class="notes">
+              The Internet Archive uses automated agents, spiders or
+              bots to automatically crawl the Internet and archive material.
+              As you can see from their coverage of the NYTimes homepage
+              for 2016. On December 13th there were 103 snapshots just
+              of the homepage itself.
+            </aside>
+          </figure>
+				</section>
+
+        <section>
+          <figure>
+            <img class="plain" alt="VK" src="images/wayback.png">
+            <figcaption>
+              <a href="http://web.archive.org/web/20140501000000*/https://vk.com/wall-57424472_7256">Archival coverage</a> of Igor Strelkov's VKontakte profile in 2014.
+            </figcaption>
+          </figure>
+          <aside class="notes">
+            This is the coverage for Igor Strelkov's profile page on VKontakte
+            which is a popular Russian social media site. Strelkov is
+            currently being sued by the families of 18 passengers on MH17
+            because he gave the order to shoot down the civilian aircraft
+            thinking it was a Ukrainian military plane. We only know
+            of his role because he posted on VKontakte about shooting down the
+            aircraft, but deleted his post and his account on learning that it
+            was in fact a civilian aircraft.
+
+            Anatol Shmelev is a research fellow, curator of the Russia and
+            Eurasia Collection, and the project archivist for the Radio Free
+            Europe/Radio Liberty Collection, at the Hoover Institution. 
+            In mid-July you can that Anatol added this webpage to a list of 
+            URLs to be routinely crawled by Archive-It to become par of a 
+            Ukrainian Conflict collection.
+
+            Archive-It: 400 partner organizations in 48 U.S. states
+            and 16 countries worldwide.
+          </aside>
+				</section>
+
+				<section>
+          <h3>Internet Archive: Exercise</h3>
+          <ol>
+            <li>Look up a URL at <a href="http://wayback.archive.org">wayback.archive.org</a>. What do you notice when examining what is in (or not in) the archive?</li>
+            <li>Try to add a page using the <em>Save Page Now</em> function.  </li>
+            <li>Install the <a href="https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak">Wayback Machine</a> Google Chrome plugin.</li>
+          </ol>
+          <aside class="notes">
+          </aside>
+        </section>
+
+				<section>
+          Webrecorder
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section>
+          Webrecorder: Exercise
+          <aside class="notes">
+          </aside>
+        </section>
+
+				<section>
+          WARC
+          <aside class="notes">
+          </aside>
+        </section>
+
+				<section>
+          Hypothesis
+          <aside class="notes">
+          </aside>
+        </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+        history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
